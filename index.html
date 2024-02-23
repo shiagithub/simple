@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel ="stylesheet" href ="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"> My music</li>
+            <li> Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1> Best of NCS -No Copyright Sounds</h1>
+            <div class="songitemContainer">
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songName">Janiye</span>
+                    <span class="songlistplay"><span class="timestamp">03:34 <i id ="1" class="far songItemPlay fa-play-circle"></i></span></span>              
+                </div>
+                <div class="songItem">
+                    <img src="covers/2.jpg" alt="1">
+                    <span class="songName">Tumse Mohabbat Hai</span>
+                    <span class="songlistplay"><span class="timestamp">04:17 <i id ="2" class="far songItemPlay fa-play-circle"></i></span></span>              
+                </div>
+                <div class="songItem">
+                    <img src="covers/3.jpg" alt="1">
+                    <span class="songName">Dangerously-Charlie-Puth-</span>
+                    <span class="songlistplay"><span class="timestamp">03:55 <i id ="3" class="far songItemPlay fa-play-circle"></i></span></span>              
+                </div>
+                <div class="songItem">
+                    <img src="covers/4.jpg" alt="1">
+                    <span class="songName">Pehli Nazar Mein </span>
+                    <span class="songlistplay"><span class="timestamp">05:13 <i id ="4" class="far songItemPlay fa-play-circle"></i></span></span>              
+                </div>
+                <div class="songItem">
+                    <img src="covers/5.jpg" alt="1">
+                    <span class="songName">Dandelions</span>
+                    <span class="songlistplay"><span class="timestamp">03:19 <i id ="5" class="far songItemPlay fa-play-circle"></i></span></span>              
+                </div>
+                <div class="songItem">
+                    <img src="covers/6.jpg" alt="1">
+                    <span class="songName"> Ik Lamha</span>
+                    <span class="songlistplay"><span class="timestamp">04:18 <i id ="6" class="far songItemPlay fa-play-circle"></i></span></span>              
+                </div>
+                <div class="songItem">
+                    <img src="covers/7.jpg" alt="1">
+                    <span class="songName">Tere Hawaale</span>
+                    <span class="songlistplay"><span class="timestamp">05:50 <i id ="7" class="far songItemPlay fa-play-circle"></i></span></span>              
+                </div>
+                <div class="songItem">
+                    <img src="covers/8.jpg" alt="1">
+                    <span class="songName">Seven-BTS</span>
+                    <span class="songlistplay"><span class="timestamp">03:04 <i id ="8" class="far songItemPlay fa-play-circle"></i></span></span>              
+                </div>
+                <div class="songItem">
+                    <img src="covers/9.jpg" alt="1">
+                    <span class="songName">Chaleya - Tamil version</span>
+                    <span class="songlistplay"><span class="timestamp">03:08 <i id ="9" class="far songItemPlay  fa-play-circle"></i></span></span>              
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songName">Shameless</span>
+                    <span class="songlistplay"><span class="timestamp">03:46 <i  id=" 10" class="far songItemPlay fa-play-circle"></i></span></span>              
+                </div>
+            
+
+                
+                
+                
+                
+
+            </div>   
+        </div>
+        <div class="songBanner"></div>   
+    </div>
+    
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min ="0" value="0" max="100">
+        <div class ="icons">
+            <div id="one">
+              <i class="fa-solid fa-backward-fast" id="previous" ></i> 
+            </div>
+            <div id="two">
+               <i class="fa-regular fa-circle-play"  id="masterPlay"></i>
+            </div>
+            <div id="third">
+             <i class="fa-solid fa-forward-fast"  id="next" ></i>
+            </div> 
+        <div class="songinfo">
+            <img src="playing.gif" width="42px"  alt="" id="gif"> <span id="masterSongName">Janiye-Vishal Mishra</span>  
+        </div>     
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
